@@ -63,7 +63,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 ▶ cat ~/.gf/ssrf.json
 
 {
-    "flags": "-iE",
+    "flags": "-oriahE",
      "patterns": [
 
         "access",
@@ -131,7 +131,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 ▶ cat ~/.gf/redirect
 
 {
-    "flags": "-iE",
+    "flags": "-oriahE",
      "patterns": [
 "forward=",
 "dest=",
@@ -171,7 +171,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 ```bash
 ▶ cat ~/.gf/rce.json
 {
-    "flags": "-iE",
+    "flags": "-oriahE",
      "patterns": [
  
         "daemon",
@@ -191,7 +191,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 ```bash
 ▶ cat ~/.gf/idor.json
 {
-    "flags": "-iE",
+    "flags": "-oriahE",
      "patterns": [
 
  "id",
@@ -222,7 +222,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 ```bash
 ▶ cat ~/.gf/sqli.json
 {
-    "flags": "-iE",
+    "flags": "-oriahE",
      "patterns": [
 
          "id",
@@ -261,7 +261,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 ```bash
 ▶ cat ~/.gf/lfi.json
 {
-    "flags": "-iE",
+    "flags": "-oriahE",
      "patterns": [
 
         "file",
@@ -285,7 +285,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 
 
 {
-    "flags": "-iE",
+    "flags": "-oriahE",
      "patterns": [
         
         "template",
@@ -304,7 +304,7 @@ The pattern definitions are stored in `~/.gf` as little JSON files that can be k
 ```bash
 ▶ cat ~/.gf/debug_logic.json
 {
-    "flags": "-iE",
+    "flags": "-oriahE",
      "patterns": [
 
         "access",
